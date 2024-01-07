@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+html {
+  height: 100%;
+  width: 100%;
+
+}
+html, body {
+
+  font-family: Inter, sans-pro;
+  height:100%;
+  animation: intro 5s
+}
+
+.sidePadding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.myDiv {
+  padding: 50em;
+  text-align: center;
+  width: 60%;
+}
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  animation: intro 5s;
+}
+.lower {
+  text-align: left;
+  width: 100%;
+}
+.ach {
+  text-align: left;
+  width: 100%;
+}
+.footer {
+  text-align: center;
+  width: 100%;
+}
+.actfooter {
+  background-color: rgba(0,0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+}
+.main {
+  position: relative;
+  top: 100vh;
+  padding-right: 10em;
+  padding-left: 10em;
+  animation: intro 5s;
+}
+@keyframes intro {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF7276
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FF7276
+}
