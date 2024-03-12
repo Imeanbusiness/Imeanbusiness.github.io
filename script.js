@@ -12,3 +12,11 @@ if (device == "phone") {
   document.getElementById("main").style.paddingLeft = "0px";
   document.getElementById("main").style.paddingRight = "0px";
 }
+
+var w = window.innerWidth;
+
+
+if (w<=1000) {
+  document.getElementById("main").style.paddingLeft = "0px";
+  document.getElementById("main").style.paddingRight = "0px";
+}
