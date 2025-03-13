@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 html {
   height: 100%;
   width: 100%;
@@ -7,8 +8,18 @@ html {
 html, body {
 
   font-family: Inter, sans-pro;
+  font-family: "Big Shoulders", sans-serif;
   height:100%;
   animation: intro 5s
+}
+
+body {
+  background-image: url('photos/LightMountains.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  
 }
 
 .sidePadding {
@@ -20,11 +31,76 @@ html, body {
   text-align: center;
   width: 60%;
 }
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+}
+#daylight {
+  background-image: url("photos/Sun.png");
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  background-color: none;
+  background-size: cover;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  margin:7px;
+
+}
+#discord {
+  background-image: url("photos/discorddark.png");
+  height: 35px;
+  width: 40px;
+  position: fixed;
+  background-color: none;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  margin:7px;
+
+}
+#insta {
+  background-image: url("photos/instadark.png");
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  background-color: none;
+  background-size: cover;
+  bottom: 40px;
+  left: 0;
+  z-index: 5;
+  margin:5px;
+  margin-right:0px;
+
+}
+#github {
+  background-image: url("photos/githubdark.png");
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  background-color: none;
+  background-size: cover;
+  bottom: 80px;
+  left: 0;
+  z-index: 5;
+  margin:5px;
+  margin-right:0px;
+
+}
 .header {
   position: absolute;
+  z-index: 9;
   top: 50%;
   left: 50%;
   text-align: center;
+  
   transform: translate(-50%, -50%);
   animation: intro 5s;
 }
@@ -37,8 +113,10 @@ html, body {
   width: 100%;
 }
 .footer {
-  text-align: center;
   width: 100%;
+}
+a {
+  font-size: 35px;
 }
 .actfooter {
   background-color: rgba(0,0, 0, 0.5);
